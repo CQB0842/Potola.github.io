@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cui QiBin's HomePage</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<style>
+table {
+    border-collapse: collapse;
+    height: 90px;
+    text-align: center;
+}
+th {
+    padding: 5px 20px;
+}
+td {
+    padding: 5px 20px;
+}
+#nav {
+    color:rgb(20, 173, 194);
+}
+.menu {
+    color: rgb(15, 82, 145);
+}
+.banner {
+    font-size:14px;
+}
+/* h2{
+   background-color: cadetblue;  と　"<link rel="stylesheet" href="CSS/style.css" "同じ効果>
+} */
+
+/* body{
+    background: url("img/美しいところ４.jpg");
+    background-size: cover;
+     background-attachment: fixed;
+     background-color: aliceblue;
+} */
+</style>
+
+<body>
+   
+    </style>
+    <!--これは自己紹介です-->
+    
+    <h1>自己紹介</h1> 
+   
+
+    <img src= "img/個人写真１.jpg" alt="ロゴ画像"width="180px" border="0"> 
+
+ <!--各項目の説明内容です-->
+ <h2 id = "name">名前</h2>
+ <p><span style = "color:white(15, 236, 225);">CUI QIBIN (サイ　キヒン)</span></p>
+
+
+
+    <h2>目次</h2>
+ 
+    <ul class="menu">
+        <li><a href = "#name">名前</a></li><br>
+        <li><a href = "#hobby">趣味</a></li><br>
+        <li><a href = "旅の風景.html">旅の風景</a></li><br>
+        <li><a href = "#histoy">履歴</a></li><br>
+        <li><a href = "works.html">作品</a></li><br>
+        <li><a href = "#now">近年のこと</a></li><br>
+    </ul>
+ 
+    
+    
+    <!--検索を作る-->
+    <form action ="https://openai.com/blog/chatgpt"　method = "get">
+       <label for = "search" id="nav">知りたい事</label>
+        <input id = "name" type="text" name ="q">
+        <!--<button>送信</button>-->
+        <input type="submit" value="ChatGPT">
+        <input type="color" id="color">
+       
+    </form>
+
+    <p><a href = "#top">To Top</a></p>
+
+    <h2 id = "hobby">趣味</h2>
+    <ul>
+        <div style = "margin-left:40px;"><!--この符号の使う-->
+        <li>陶芸をやること</li>
+        <li><a href ="旅の風景.html">旅行すること</a></li>
+        <li>バスケットボール</li>
+        <a href="https://slamdunk-movie.jp/"><img src= "img/sd.jpg" 
+            alt="ロゴ画像"
+            width="125px" 
+            heigh="125xp" 
+            title = "一番好きな漫画🅌"> </a>
+        </div>
+        <p>以前は陶芸を専攻していました。<br>&lt;<strong>景徳鎮</strong>&gt;と&lt;<strong>東京</strong>&gt;</p> <!--1."<br>"の使う;　2."&lt；&rt" のつかう.-->
+
+    </ul>
+
+
+    <h2 id = "histoy">履歴</h2>
+    <dl>
+        <dt>学歴</dt>
+        <dd>
+            <ul>
+                <li><a target = "_blank" href = "https://www.jci.edu.cn/">景徳鎮陶磁大学</a></li>
+                <li><a target = "_blank" href = "http://www.towait.ac.jp/index.html">東和IT専門学校</a></li>
+            </ul>
+
+        </dd>
+        <dt>職歴</dt>
+        <dd>
+            <ul>
+                <li>
+                    なし
+                </li>
+            </ul>
+        </dd>
+
+    </dl>
+
+    <h2 id = "now">近年以来</h2><span><a href = "#top"><button>To Top</button></a></span>
+    <table>
+        <thead>
+            <tr><th>年齢</th><th>出来事</th><th>気持ち</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>27</td><td>卒業</td><td>嬉しい</td></tr>
+            <tr><td>28</td><td>来日</td><td>緊張</td></tr>
+            <tr><td>29</td><td>ITを勉強</td><td>楽しむ</td></tr>
+        </tbody>
+    </table>
+
+    <aside>
+        <h3>広告</h3>
+        <p class ="banner">happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy 
+            happy happy happy happy happy happy happy happy happy happy happy happyhappy happy happy happy happy
+             happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy   
+            happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy 
+        </p>
+    </aside>
+
+   <footer>
+    <p>投稿日:<time datetime="2023-05-09 09:00">05月09日</time>投稿者:
+    Cui</p>
+     <div>
+            <label>日付<input type="date"></label>
+        </div>
+   </footer>
+        
+    
+</body>
+</html>
